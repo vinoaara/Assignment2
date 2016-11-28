@@ -1,0 +1,254 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+#icons{
+	font-size: 1.5em;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	background: url("../../images/back.jpg");
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+.panel-title{
+	font-family: 'Niconne', cursive;
+	font-size: 40px;
+	color: red;
+}
+
+#topic{
+	font-family: 'merienda One', cursive;
+	font-size: 30px;
+	color: white;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+	font-family: 'merienda One', cursive;
+	font-size: 30px;
+	color: black;
+	text-shadow: 0 1px 0 red;
+}
+ div a{
+	font-family:'Slabo 27px', serif;
+	font-size: 20px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	padding-top: 100px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/car1_m.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/car2_m.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/car3_m.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+#thumb_para{
+	text-align: center;
+}
+
+#tab_para{
+	color: white;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../../images/car1_s.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/car2_s.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/car3_s.jpg') top center no-repeat;
+	}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+		background: url('../../images/car1.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/car2.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/car3.jpg') top center no-repeat;
+	}
+
+}
+
+
+/*------------------Jumbortron--------------------*/
+.jumbotron{
+
+	font-family: 'merienda One', cursive;
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+}
+/* features*/
+#features-head{
+color: white;
+font-family: 'Ravi Prakash', cursive;
+text-align: center;
+font-size: 40px;
+}

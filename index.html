@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Clara's Cupboard</title>
+		<meta name="description" content="My Bootstrap project">
+		
+		<!-- Mobile viewport optimized -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<!-- <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
+
+		<!--icons-->
+		<link rel="stylesheet"  href="includes/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!--google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Merienda+One|Ravi+Prakash|Slabo+27px|Yanone+Kaffeesatz|Orbitron|Niconne" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+			<div class="navbar navbar-fixed-top">
+				
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/">Clara's Cupboard</a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right">
+						 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+    </ul>
+						<ul class="nav navbar-nav pull-right id="">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							
+		<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday<strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+								<li><a href="">Dolls</a></li>
+								<li><a href="">Greetings</a></li>
+								<li><a href="">watches</a></li>
+								<li><a href="/">Chocolates</a> </li> 
+								<li><a href="">Wallets</a></li>
+
+								</ul>
+	   <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anniversery <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+								<li><a href="">Dolls</a></li>
+								<li><a href="">Greetings</a></li>
+								<li><a href="">watches</a></li>
+								<li><a href="/">Chocolates</a> </li> 
+								<li><a href="">Wallets</a></li>
+								</ul>
+      <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Christmas <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li><a href="">Dolls</a></li>
+								<li><a href="">Greetings</a></li>
+								<li><a href="">watches</a></li>
+								<li><a href="/">Chocolates</a> </li> 
+								<li><a href="">Wallets</a></li>
+								</ul>
+       <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li><a href="">Flower Combo</a></li>
+								<li><a href="">Flower Types</a></li>
+								<li><a href="">Flower Arrangements</a></li>
+								
+								</ul>
+      <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Cakes <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li><a href="">Chocolates</a></li>
+								<li><a href="">Vennila</a></li>
+								<li><a href="">Butterscotch</a></li>
+								<li><a href="/">Pineapple</a> </li> 
+									</ul>
+	  <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Personalised Gifts <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li><a href="">Pillows</a></li>
+								<li><a href="">Mugs</a></li>
+								<li><a href="">Photoframe</a></li>
+								<li><a href="/">WallClocks</a> </li> 
+								<li><a href="">Calender</a></li>
+								</ul>
+
+     <li> <form class="navbar-form">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+		
+					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form --></li>
+						
+    </ul><!--navbar pull_right-->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			<section class="container">
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							
+					</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			
+			<div class="jumbotron">
+								
+						<p class="lead">"Express your deepest sympathy with a thoughtful gift from our store. We offer sympathy for the loss of a child, pet sympathy, and more. Our mission is to simplify the difficult task of sending your sympathy condolences."</p>
+						
+						</div><!--end jumbotron-->
+			
+			</section>
+			<section class="container">
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2 id="features-head">Our Special For you</h2>
+					
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+			<div class="col-lg-12">
+				<div class="col-lg-3 col-md-4 col-xs-12 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Christmas</h3>
+						</div><!-- end panel-heading -->
+						<img class="col-12" src="images/features1.jpg" alt="Birthday">
+						
+						
+						<a href="" target="_blank" class="btn btn-warning  btn-lg">Shop-now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-lg-3 col-md-4 col-xs-12 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Newyear</h3>
+						</div><!-- end panel-heading -->
+						<img class="col-12" src="images/features2.jpg" alt="Newyear" />
+						
+						
+						<a href="" target="_blank" class="btn btn-danger  btn-lg">Shop-now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-lg-3 col-md-4 col-xs-12 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Birthday</h3>
+						</div><!-- end panel-heading -->
+						<img class="col-12" src="images/features3.jpg" alt="Birthday">
+						
+												
+						<a href="" target="_blank" class="btn btn-info  btn-lg">Shop-now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				<div class="col-lg-3 col-md-4 col-xs-12 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Anniversery</h3>
+						</div><!-- end panel-heading -->
+						<img class="col-12" src="images/features4.jpg" alt="Anniversary">
+						
+												
+						<a href="" target="_blank" class="btn btn-success btn-lg">Shop-now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				</div>
+			</div><!-- end features -->
+			</section>
+			
+			
+			
+			<section class="container">
+			<hr>
+			<h1 id="features-head">Hot sellers</h1>
+
+			<div class="row" id="moregifts">
+				<div class="col-12">
+					<div><h3 id="topic">Soft toys <button type="button" class="btn btn-link">View All</button></h3></div>
+					<hr>
+					<div class="thumbnails row">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/doll1.jpg" alt="dolls1">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/doll2.jpg" alt="dolls2">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/doll3.jpg" alt="dolls3">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moregiftss -->
+		
+		<hr>
+			<div class="row" id="moregifts">
+				<div class="col-12">
+					<h3  id="topic">Personalised Gifts <button type="button" class="btn btn-link">View All</button></h3>
+					<div class="thumbnails row">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/pg1.jpg" alt="personalisedGifts">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/pg2.jpg" alt="personalisedGifts">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/pg3.jpg" alt="personalisedGifts">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+			<hr>
+			<div class="row" id="moregifts">
+				<div class="col-12">
+					<h3  id="topic">cakes <button type="button" class="btn btn-link">View All</button></h3>
+					<div class="thumbnails row">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/cake1.jpg" alt="cakes">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/cake2.jpg" alt="cakes">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="thumbnail">
+								<img src="images/cake3.jpg" alt="cakes">
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>29</div>
+								
+								<div class="caption">
+									
+									<p id="thumb_para"><a href="" class="btn btn-primary btn-lg" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-info btn-lg">Add to Cart</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-4 -->
+						
+						
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+			</section>
+
+			<section class="container">
+		
+		<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3  id="topic">Know Us</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">About Us</a></li>
+							<li><a href="#tab2" data-toggle="tab">Location</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+									<p id="tab_para"> Clara's Cupboard with its out of the box greeting and gifting ideas has given millions of people means to express their love and joy and created days of celebration like-Valentine's Day, Mother's Day, Father's Day, Friendship Day, Daughter's Day, Women's Day, Independence Day, Raksha Bandhan and many more. By introducing online gifting opportunities through our e-commerce portal, www.archiesonline.com we have been reaching out to millions of hearts and constantly churning out reasons to smile. At Archies, we celebrate every occasion in a unique and special way. So make this unconditional bond of love, rakhi, extra special for your beloved sister and brother with a magical touch of exclusive Raksha Bandhan Gift Hampers offered by us.</p>
+
+									<p id="tab_para">Clara's Cupboard offers you an endearing and endless variety of gift items such as-Greetings, Perfumes, Chocolates, Stationery essentials, Mugs, Toys and Accessories for him and her. Over the years we have added to our portfolio, bringing to India some world famous gifting brands like-Garfield, Smiley World, Cow Parade and Hallmark. Shop for Archies widest collection of exciting gifts and greetings and send gifts to your loved ones anywhere in India. Feelings and emotions have been at the heart of the Archies brand for the past 30+ years hence it promises 'the most special way to say you care'.</p>
+						</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab2">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.8149329764824!2d77.6615274149112!3d12.855226790932301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c983635319f%3A0x7d6ad01d81a2895f!2sElectronic+City+Phase+1+Bus+Stop!5e0!3m2!1sen!2sin!4v1480243951151" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p id="tab_para"><strong>Noah's Ark Gifts</strong></p>
+								<p id="tab_para"> Near Hewlett Packard Avenue,</p><p id="tab_para"> Konappana Agrahara,Electronic City, </p><p id="tab_para">Bengaluru, Karnataka 560100</p>
+							</div><!-- end tab-pane -->
+
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+							
+							
+				
+				<div class="col-sm-6">
+				<h3  id="topic">Brand Associations</h3>
+				<br>
+				<hr>
+					<p><img src="images/b1.jpg" alt="brand"/>&nbsp;<img src="images/b2.jpg" alt="brand"/>&nbsp; <img src="images/b3.jpg" alt="brand"/> &nbsp;<img src="images/b4.jpg" alt="brand"/>&nbsp;<img src="images/b5.jpg" alt="brand"/>&nbsp;<img src="images/b6.jpg" alt="brand"/>&nbsp;<img src="images/b7.jpg" alt="brand"/>&nbsp;<img src="images/b8.jpg" alt="brand"/></p>
+					<hr>
+					<h3  id="topic">Message</h3>
+					
+			</div><!-- end col-sm-6 -->
+
+								
+									<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click me</a>
+				
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog  col-lg-12" style="margin-right: 20px;">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												</div><!-- end modal-header -->
+											<div class="modal-body">
+														<h4>Welcome</h4>
+												
+												<p>Provide your details to be in touch with us</p>
+												
+																								
+												
+												<hr>
+												
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+														
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <a href="#" class="btn btn-primary ">submit</a>
+											</div><!-- end footer-->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+						
+
+		</div><!-- end container -->
+		
+		</section>
+
+		<footer class="col-lg-12">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-xs-6">
+					<h6>Copyright &copy;Clara's Cupboard</h6>
+					</div><!-- end col-sm-3 -->
+					<div class="col-lg-3 col-xs-6">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-3 -->
+					
+					<div class="col-lg-3 col-xs-6">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter </a><i id="icons" class="fa fa-twitter" aria-hidden="true"></i></li>
+							<li><a href="#">Facebook </a><i id="icons" class="fa fa-facebook-square" aria-hidden="true"></i></li>
+							<li><a href="#">Instagram </a><i id="icons" class="fa fa-instagram" aria-hidden="true"></i></li>
+						</ul>
+					</div><!-- end col-sm-3 -->
+					
+					<div class="col-lg-3 col-xs-6">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by vino</h6>
+					</div><!-- end col-sm-3 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+	
+	
+	
+	</body>
+</html>
+
